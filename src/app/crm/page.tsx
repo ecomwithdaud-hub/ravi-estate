@@ -8,7 +8,7 @@ import BrochureModal from "@/components/BrochureModal";
 
 export default function CRMPage() {
   return (
-    <div className="min-h-screen flex flex-col bg-navy-950">
+    <div className="min-h-screen flex flex-col bg-slate-50">
       <Navbar activeModule="crm" />
       <main className="flex-1">
         <CRMPipelineDashboard />

@@ -14,7 +14,7 @@ export default function HomePage() {
   const [activeModule, setActiveModule] = useState<"public" | "crm">("public");
 
   return (
-    <div className="min-h-screen flex flex-col bg-navy-950">
+    <div className="min-h-screen flex flex-col bg-white">
       <Navbar activeModule={activeModule} setActiveModule={setActiveModule} />
 
       {activeModule === "public" ? (
